@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+background-color: #fff;
+    background-repeat: no-repeat;
+     background-size: cover;
+     }
+
+
+
+
+
+
+
+/*-----------menu-------------- */
+ul {
+  
+
+  height: 100px;
+   text-align:center;
+background-color: #fff;
+ 
+
+
+  
+}
+a {
+  text-decoration: none;
+
+ 
+}
+li a {
+    padding: 100px;
+  color: #868686;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  
+  font-size: 70px;
+  font-weight: 50px;
+  
+}
+li {
+
+
+display: inline; 
+}
+
+ /*------------------------------------------------------*/
+
+
+    
+
+
+    
+/*---------------------main page-----------------------------*/
+
+.mainlabel{
+ 
+ font-size: 200px;
+ 
+  font-family: 'AlexBrushRegular'; 
+  color: 	#FFEBCD;
+}
+.made{
+
+  margin: 0 auto;
+   font-size: 100px;
+   font-family: 'Montserrat', sans-serif;
+   	color: 	#FFEBCD;
+
+}
+.by{
+   font-family: 'AlexBrushRegular';
+     font-size: 120px;
+     
+}
+.mad{
+  font-size: 120px;
+   	
+   	 font-family: 'Montserrat', sans-serif;
+  
+}
+#home{
+
+   margin: 0 auto; 
+    width: 95%; 
+  height:2250px;
+    z-index: 0;
+    
+   background-image: url(images/hom.jpg); 
+    background-repeat: no-repeat;
+     background-size: 100% 100%;
+     
+     border-color: #fff;
+     border:100px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+     
+     }
+     .empty{
+         height: 1200px;
+     }
+ /*---------------------------------------------*/  
+ 
+ /*----------------education-----------------------------*/       
+#about-me{
+   margin: 0 auto; 
+    width: 95%; 
+  height:2250px;
+   
+   background-image: url(/images/eb.jpg); 
+    background-repeat: no-repeat;
+     background-size: 100% 100%;
+      font-family: 'Montserrat';
+     
+  
+}
+#school{
+    float:right;
+
+    height:1000px;
+    width:1500px;
+  
+    font-weight: bold;
+    border-radius: 50px;
+     margin-right: 100px;
+   
+    color:	#FFF8DC;
+   font-size: 60px;
+
+    text-align: justify; /* Выравнивание по ширине */
+   
+  
+  
+  font-family: 'Montserrat'; 
+}
+ /*---------------------------------------------*/  
+
+
+
+
+/*---------------------skills-------------------------*/
+
+#skills{
+
+  width:90%;
+  height:2250px;
+  margin:0 auto;
+  
+   background-image: url(/images/squ.jpg); 
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  background-color: rgba(255,255,255,0.1);
+   background-repeat: no-repeat;
+     background-size: 100% 100%;
+  
+   
+    
+     
+}
+#css{  float:left;
+     background-color: rgba(0, 0, 0, 0.3);
+    height:700px;
+    width:500px;
+    background-image: url(images/css.png);
+ background-size: 100% 100%;
+    border-color: white; 
+
+    border-radius: 50px;
+ margin-top: 1450px;
+  margin-left: 400px;
+}
+#html{
+    float:left;
+     background-color: rgba(0, 0, 0, 0.3);
+    height:700px;
+    width:500px;
+    background-image: url(images/html.png);
+ background-size: 100% 100%;
+    border-color: white; 
+
+    border-radius: 50px;
+   margin-top: 1450px;
+  margin-left: 400px;
+}
+    
+#js{
+     float:left;
+     background-color: rgba(0, 0, 0, 0.3);
+    height:700px;
+    width:500px;
+    background-image: url(images/js.png);
+ background-size: 100% 100%;
+    border-color: white; 
+
+    border-radius: 50px;
+
+   margin-top: 1450px;
+  margin-left: 400px;
+}
+#c{
+        float:left;
+     background-color: rgba(0, 0, 0, 0.3);
+    height:700px;
+    width:500px;
+    background-image: url(images/c++.png);
+ background-size: 100% 100%;
+  ; 
+
+    border-radius: 50px;
+    margin-top: 1450px;
+  margin-left: 400px;
+}
+#python{
+       float:left;
+     background-color: rgba(0, 0, 0, 0.3);
+    height:700px;
+    width:500px;
+    background-image: url(images/python.png);
+ background-size: 100% 100%;
+    border-color: white; 
+
+    border-radius: 50px;
+
+ 
+  
+   
+
+    text-align: justify; /* Выравнивание по ширине */
+   
+
+  
+ 
+  margin-top: 1450px;
+  margin-left: 400px;
+}
+    
+
+
+  
+
+
+
+
+
+
+/*--------------------------------------------------*/
+
+
+ /*----------------------contacts----------------------------*/ 
+
+#contacts{
+
+margin:0 auto;
+  width:95%;
+    height:2250px;
+  
+   background-image: url(images/c.jpg); 
+
+    background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+#form{
+  padding-left: 56%;
+  padding-top: 695px;
+   font-size: 70px;
+   font-weight: 70px;
+   font-family: 'AlexBrushRegular';
+   position: absolute;
+  
+   
+}
+#msg{
+  height:700px;
+  width: 2000px;
+   font-size: 80px;
+   
+  
+}
+#send{
+    color:  #802000;
+   font-size: 150px;
+   
+   font-weight:100px;
+}
+  
+
+#clientEmail{
+      width: 2000px;
+    font-size: 80px;
+   
+}
+#but{
+  width: 300px;
+  height:100px;
+  font-size:80px;
+   font-family: 'AlexBrushRegular'
+}
+  
+
+#clientName{
+    width: 2000px;
+    font-size: 80px;
+
+  
+}
+
+
+/*------------------------------------------------------------*/
